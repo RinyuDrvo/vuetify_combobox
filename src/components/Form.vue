@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-    <h1>HELLO</h1>
+  <div class="form">
+    <h1>Form</h1>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class HelloWorld extends Vue {}
+export default class About extends Vue {}
 </script>
 
 <style scoped lang="scss">
